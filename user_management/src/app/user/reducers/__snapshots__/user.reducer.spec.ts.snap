@@ -1,0 +1,361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersReducer LOAD should add a single user, if the user does not exist 1`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "id": "1",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+  ],
+  "selectedUserId": null,
+}
+`;
+
+exports[`UsersReducer LOAD should return the existing state if the user exists 1`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "id": "1",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+  ],
+  "selectedUserId": null,
+}
+`;
+
+exports[`UsersReducer SEARCH_COMPLETE & LOAD_SUCCESS should add all user in the payload when none exist 1`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "id": "1",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+    "222": Object {
+      "id": "222",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+    "222",
+  ],
+  "selectedUserId": null,
+}
+`;
+
+exports[`UsersReducer SEARCH_COMPLETE & LOAD_SUCCESS should add all user in the payload when none exist 2`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "id": "1",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+    "222": Object {
+      "id": "222",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+    "222",
+  ],
+  "selectedUserId": null,
+}
+`;
+
+exports[`UsersReducer SEARCH_COMPLETE & LOAD_SUCCESS should add only user when user already exist 1`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "id": "1",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+    "222": Object {
+      "id": "222",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+    "333": Object {
+      "id": "333",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+    "222",
+    "333",
+  ],
+  "selectedUserId": null,
+}
+`;
+
+exports[`UsersReducer SEARCH_COMPLETE & LOAD_SUCCESS should add only user when user already exist 2`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "id": "1",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+    "222": Object {
+      "id": "222",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+    "333": Object {
+      "id": "333",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+    "222",
+    "333",
+  ],
+  "selectedUserId": null,
+}
+`;
+
+exports[`UsersReducer SELECT should set the selected user id on the state 1`] = `
+Object {
+  "entities": Object {
+    "1": Object {
+      "id": "1",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+    "222": Object {
+      "id": "222",
+      "volumeInfo": Object {
+        "authors": Array [
+          "author",
+        ],
+        "averageRating": 3,
+        "description": "description",
+        "imageLinks": Object {
+          "smallThumbnail": "string",
+          "thumbnail": "string",
+        },
+        "publishDate": "",
+        "publisher": "publisher",
+        "ratingsCount": 5,
+        "subtitle": "subtitle",
+        "title": "title",
+      },
+    },
+  },
+  "ids": Array [
+    "1",
+    "222",
+  ],
+  "selectedUserId": "1",
+}
+`;
+
+exports[`UsersReducer Selectors selectId should return the selected id 1`] = `"1"`;
+
+exports[`UsersReducer undefined action should return the default state 1`] = `
+Object {
+  "entities": Object {},
+  "ids": Array [],
+  "selectedUserId": null,
+}
+`;

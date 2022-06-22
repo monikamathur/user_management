@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View User Page should compile 1`] = `
+<bc-view-user-page
+  __ngContext__="0"
+  actionsSubscription={[Function SafeSubscriber]}
+>
+  <bc-selected-user-page>
+    <bc-user-detail>
+    </bc-user-detail>
+  </bc-selected-user-page>
+</bc-view-user-page>
+`;
